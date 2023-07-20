@@ -1,0 +1,64 @@
+ /* Stili CSS */
+    body {
+      font-family: segoe ui, times new roman;
+      margin: 1em;
+      padding: 1em;
+      background-color: rgb(255, 255, 255); 
+    }
+    header {
+      background-color: rgb(255, 255, 255);
+      color:rgb(34,27,27);
+      padding: 1em;
+      text-align: center;
+      font-weight: extrabold;
+      font-family: 'segoe ui', times new roman;
+    }
+    main {
+      padding: 1em;
+      font-family: 'segoe ui',times new roman;
+      text-align: start; */
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: start;
+      font-family: 'segoe ui',times new roman;
+    }
+    .logo {
+      text-align: start;
+      margin-bottom: 20px;
+    }
+    .menu {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    .menu li {
+      margin-right: 10px;
+    }
+    .menu li a {
+      color:  rebeccapurple;
+      text-decoration: underline overline;
+      font-size: 18px;
+    }
+    .menu li a:hover {
+      color: hsla(30, 100%, 50%, .3);
+    }
+
+  .social-btns {
+      text-align: center;
+    }
+
+    .social-btn {
+      display: grid;
+      padding:  20;
+      border: none;
+      text-decoration: underline overline;
+      color: rgb(34,27,27);
+      font-weight: extrabold;
+      text-align: center;
+      cursor: pointer;
+    }
+   }
