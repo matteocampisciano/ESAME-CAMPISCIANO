@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SCOPRI LA TUA ARMOCROMIA</title>
+</head>
+<body>
+  <header>
+  <img src="https://www.lunediacolazione.it/wp-content/uploads/2020/12/ARMOCROMIA.jpg"</img>
+  </header>
+  <div class="header">
+    <div class="logo">
+      <ul class="menu">
+        <li><a href="#checosa">CHE COS'È
+          L'ARMOCROMIA</a></li>  
+        <li><a href="#dove">DOVE LAVORIAMO</a></li>
+        <li><a href="#contatti">CONTATTI</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="checosa">
+    <h2>COME FUNZIONA</h2>
+    
+    <p>È una disciplina che, attraverso l'analisi delle caratteristiche di una persona (colore di occhi, capelli, tono e sottotono della pelle), individua i colori 'amici', ovvero, le tinte da prediligere nell'abbigliamento e nel make-up per valorizzare la figura.</p>
+
+    <h2>PERCHE' FARE L'ARMOCROMIA</h2> 
+    <p>E' una disciplina che ti aiuta a scoprire quali sono le nuances di colori che creano armonia con i colori naturali della tua persona.</p>
+    <li> colore dell'incarnato</li>
+    <li> colore degli occhi</li>
+    <li> colore dei capelli</li>
+<p>Non c'è un target principale a cui è rivolta l'armocromia, è veramente per qualsiasi generazione!</p>
+  </div>
+  <div id=dove>
+    <h2>DOVE LAVORIAMO</h2>
+   
+  Le nostre sedi si trovano:
+    <li>ASTI</li>
+    <li>NOVARA</li>
+    <li>TORINO</li>
+    <li>CUNEO</li>
+</div>
+</p>
+  
+    <h2>I NOSTRI ORARI</h2>
+    <li>MARTEDI, GIOVEDI, VENERDI</li>
+    <ul>Mattino: ore 9.00-12.00</ul>
+    <ul>Pomeriggio: ore 14:30-18.00</ul>
+    <li>SABATO E DOMENICA CHIUSO</li>
+  </main>
+  <div style="text-align: center;", id="contatti">
+  <h2>I NOSTRI CONTATTI:</h2>
+    <p>Telefono: 3311661311</p>
+    <p>E-mail: armocromja@gmail.com</p>
+    <p></p>
+  <h2>CONTATTACI QUI!</h2>
+  <form action="mailto:armocromja@gmail.com" 
+    <label for="name">NOME:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">E-MAIL:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="message">DICCI DI CHE COLORE HAI GLI OCCHI E I CAPELLI!:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    <input type="submit" value="MANDA">
+  </form>
+</div>
+<header>
+  <p>SEGUICI SUI SOCIAL!</p>
+</header>
+<body>
+  <div class="social-btns">
+    <a href="https://www.instagram.com/" class="button"><img src="https://1000marche.net/wp-content/uploads/2020/03/Instagram-Logosu.png", width=95, height=55></a>
+    <a href="https://www.pinterest.com/" class="button"><img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png", width=70, height=55></a>
+    <a href="https://www.facebook.com/" class="button"><img src="https://1000marche.net/wp-content/uploads/2020/03/Facebook-logo.png",width=90, height=55</a>
+  </div>
+</body>
+</html>
+</p>
+  </footer>
+</body>
+</html>
+ /* Stili CSS */
+    body {
+      font-family: segoe ui, times new roman;
+      margin: 1em;
+      padding: 1em;
+      background-color: rgb(255, 255, 255); 
+    }
+    header {
+      background-color: rgb(255, 255, 255);
+      color:rgb(34,27,27);
+      padding: 1em;
+      text-align: center;
+      font-weight: extrabold;
+      font-family: 'segoe ui', times new roman;
+    }
+    main {
+      padding: 1em;
+      font-family: 'segoe ui',times new roman;
+      text-align: start; */
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: start;
+      font-family: 'segoe ui',times new roman;
+    }
+    .logo {
+      text-align: start;
+      margin-bottom: 20px;
+    }
+    .menu {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    .menu li {
+      margin-right: 10px;
+    }
+    .menu li a {
+      color:  rebeccapurple;
+      text-decoration: underline overline;
+      font-size: 18px;
+    }
+    .menu li a:hover {
+      color: hsla(30, 100%, 50%, .3);
+    }
+
+  .social-btns {
+      text-align: center;
+    }
+
+    .social-btn {
+      display: grid;
+      padding:  20;
+      border: none;
+      text-decoration: underline overline;
+      color: rgb(34,27,27);
+      font-weight: extrabold;
+      text-align: center;
+      cursor: pointer;
+    }
+   }
